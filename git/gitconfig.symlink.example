@@ -4,7 +4,8 @@
 [user]
         name = AUTHORNAME
         email = AUTHOREMAIL
-        helper = osxkeychain
+[credential]
+        helper = GIT_CREDENTIAL_HELPER
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
