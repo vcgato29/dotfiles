@@ -4,6 +4,8 @@
 #
 # This installs vim plugins
 
+brew install ctags
+
 function compile_command_t() {
   cd $HOME/.vim/bundle/command-t/ruby/command-t
   ruby extconf.rb
