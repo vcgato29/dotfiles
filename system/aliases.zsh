@@ -8,3 +8,9 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+# colorize tree output by default
+alias tree="tree -C"
+
+# preserve colors in less
+alias less="less -R"
