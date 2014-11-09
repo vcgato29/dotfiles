@@ -1,0 +1,17 @@
+if &compatible
+  set nocompatible
+end
+
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
+
+" Let Vundle manage Vundle
+Plugin 'gmarik/Vundle.vim'
+
+" Define bundles via Github repos
+Plugin 'mileszs/ack.vim'
+Plugin 'vincent/command-t'
+
+call vundle#end()
+filetype on
