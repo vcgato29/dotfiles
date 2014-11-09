@@ -11,7 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Define bundles via Github repos
 Plugin 'mileszs/ack.vim'
-Plugin 'vincent/command-t'
+Plugin 'wincent/command-t'
 
 call vundle#end()
 filetype on
