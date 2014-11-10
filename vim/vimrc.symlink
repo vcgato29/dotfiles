@@ -63,6 +63,10 @@ set list listchars=tab:»·,trail:·,nbsp:·
 
 autocmd BufWritePre * :%s/\s\+$//e " the command above doesn't seem to work
 
+" no beeps!
+set visualbell
+set t_vb=
+
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
