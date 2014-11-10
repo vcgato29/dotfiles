@@ -55,8 +55,6 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
-nnoremap <esc> :noh<return><esc>
-
 " display trailing whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
