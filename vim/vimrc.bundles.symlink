@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'wincent/command-t'
 Plugin 'tpope/vim-rails'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 filetype on
