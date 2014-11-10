@@ -15,4 +15,6 @@ fi
 # Install homebrew packages
 brew install grc coreutils spark
 
+brew install tmux
+
 exit 0
