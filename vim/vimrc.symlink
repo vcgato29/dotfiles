@@ -71,3 +71,5 @@ if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
 
+set background=dark
+colorscheme base16-tomorrow
