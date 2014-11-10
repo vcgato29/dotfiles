@@ -57,6 +57,16 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
+nnoremap <esc> :noh<return><esc>
+
+" display trailing whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
+
+" remove traling whitespace on save
+" autocmd FileType rb,erb,html,css,js,coffee,sass,haml autocmd BufWritePre <buffer> :%s/\s\+$//e
+
+autocmd BufWritePre * :%s/\s\+$//e " the command above doesn't seem to work
+
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
