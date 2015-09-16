@@ -7,11 +7,14 @@
 --type-set=mustache=.mustache
 --type-set=cucumber=.feature
 
+
 --type-set=bin=.pdf
 --nobin
 
 --type-set=jsmin=.min.js
 --nojsmin
+
+--noxml
 
 --ignore-dir=vendor
 --ignore-dir=log
