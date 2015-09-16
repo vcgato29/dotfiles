@@ -15,7 +15,6 @@ Plugin 'wincent/command-t'
 Plugin 'tpope/vim-rails'
 Plugin 'chriskempson/base16-vim'
 Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
 
 call vundle#end()
 filetype on
