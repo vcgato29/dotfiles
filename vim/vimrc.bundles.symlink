@@ -10,11 +10,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Define bundles via Github repos
-Plugin 'mileszs/ack.vim'
-Plugin 'wincent/command-t'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'chriskempson/base16-vim'
-Plugin 'godlygeek/tabular'
 
 call vundle#end()
 filetype on
