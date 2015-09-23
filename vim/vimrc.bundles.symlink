@@ -15,6 +15,7 @@ Plugin 'rking/ag.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-rails'
 Plugin 'chriskempson/base16-vim'
+Plugin 'thoughtbot/vim-rspec'
 
 call vundle#end()
 filetype on
