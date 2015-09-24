@@ -49,6 +49,9 @@ inoremap jj <ESC>
 " Switch between files by hitting ,, twice
 nnoremap <leader><leader> <c-^>
 
+" Clear search results by hitting Enter
+nnoremap <CR> :noh<CR><CR>
+
 " easier navigation between split windows
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
