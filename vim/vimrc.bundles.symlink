@@ -12,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 " Define bundles via Github repos
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
-Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-rails'
 Plugin 'chriskempson/base16-vim'
 Plugin 'thoughtbot/vim-rspec'
