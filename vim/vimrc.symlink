@@ -16,6 +16,7 @@ set showcmd       " display incomplete commands
 set laststatus=2  " Always display the status line
 
 set number
+set relativenumber
 
 " Make it obvious where 90 characters is
 set textwidth=90
