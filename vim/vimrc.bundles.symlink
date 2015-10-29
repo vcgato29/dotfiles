@@ -15,8 +15,11 @@ Plugin 'rking/ag.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-repeat'
 Plugin 'chriskempson/base16-vim'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'ekalinin/Dockerfile.vim'
 
 call vundle#end()
 filetype on
