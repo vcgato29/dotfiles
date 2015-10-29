@@ -11,6 +11,7 @@
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
+        l = !$ZSH/bin/git-l
         count   = !git shortlog -sn
 [color]
         diff = auto
