@@ -1,2 +1,5 @@
-export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a iTerm"'
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
+# use emacs-style zsh bindings
+bindkey -e
