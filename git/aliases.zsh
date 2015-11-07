@@ -1,6 +1,5 @@
 
 alias gst='git status'
-alias gd='git diff | mate'
 
 # The rest of my fun git aliases
 alias gl='git pull --prune'
@@ -8,8 +7,6 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C
 alias gp='git push origin HEAD'
 alias gd='git diff'
 alias gc='git commit'
-alias gca='git commit -a'
-alias gco='git checkout'
 alias gcb='git copy-branch-name'
 
 alias gb='git branch'
