@@ -3,24 +3,22 @@ if &compatible
 end
 
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#begin()
 
-" Let Vundle manage Vundle
-Plugin 'gmarik/Vundle.vim'
+call plug#begin('~/.vim/bundle')
 
 " Define bundles via Github repos
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'rking/ag.vim'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-unimpaired'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-endwise'
-Plugin 'chriskempson/base16-vim'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'ekalinin/Dockerfile.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'rking/ag.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-endwise'
+Plug 'chriskempson/base16-vim'
+Plug 'thoughtbot/vim-rspec'
+Plug 'ekalinin/Dockerfile.vim'
 
-call vundle#end()
+call plug#end()
+
 filetype on

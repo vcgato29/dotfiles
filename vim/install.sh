@@ -4,11 +4,20 @@
 #
 # This installs vim plugins
 
-brew install ctags
 
-if [ ! -e $HOME/.vim/bundle/Vundle.vim ]; then
-  git clone https://github.com/gmarik/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
+if [ "$(uname -s)" == "Darwin" ]
+then
+  brew install ctags
+else
+  sudo apt-get install -y exuberant-ctags
 fi
-vim -u $HOME/.vimrc.bundles +PluginInstall +PluginClean! +qa
+
+
+if [ ! -e $HOME/.vim/autoload/plug.vim ]; then
+  curl -fLo $HOME/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
+
+vim -u $HOME/.vimrc.bundles +PlugInstall +qa
 
 exit 0
