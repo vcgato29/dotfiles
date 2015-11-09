@@ -34,7 +34,12 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
-set guifont=DejaVu\ Sans\ Mono:h12
+
+" Mouse
+set mouse=a
+
+" set guifont=DejaVu\ Sans\ Mono:h12
+set guifont=Fira\ Mono:h12
 
 let mapleader=","
 
