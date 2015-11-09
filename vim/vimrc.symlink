@@ -34,9 +34,11 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
-
 " Mouse
 set mouse=a
+
+" Use system clipboard
+set clipboard=unnamed
 
 " set guifont=DejaVu\ Sans\ Mono:h12
 set guifont=Fira\ Mono:h12
