@@ -39,8 +39,11 @@ bind-key C-a last-pane
 set -g visual-bell off
 set -g bell-on-alert off
 
-# Local config
-if-shell "[ -f ~/.tmux.conf.local ]" 'source ~/.tmux.conf.local'
+# mouse support
+set -g mode-mouse on
+set -g mouse-resize-pane on
+set -g mouse-select-pane on
+set -g mouse-select-window on
 
 ##########################
 # Status Bar
