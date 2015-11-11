@@ -18,6 +18,9 @@ set laststatus=2  " Always display the status line
 set number
 set relativenumber
 
+" Auto-reload buffers when file changed on disk
+set autoread
+
 " Make it obvious where 90 characters is
 set textwidth=90
 set colorcolumn=+1
@@ -66,11 +69,15 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
+" paste lines from unnamed register and fix indentation
+nmap <leader>p pV`]=
+nmap <leader>P PV`]=
+
 " Save by hitting Ctrl-s
 " Note that remapping C-s requires flow control to be disabled
 " (e.g. in .bashrc or .zshrc)
-" map <C-s> <esc>:w<CR>
-" imap <C-s> <esc>:w<CR>
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
 
 " display trailing whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
