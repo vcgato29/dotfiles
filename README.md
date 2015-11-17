@@ -1,6 +1,6 @@
-![](https://raw.githubusercontent.com/pch/dotfiles/master/screenshot.png)
-
 # My Dotfiles
+
+![](https://raw.githubusercontent.com/pch/dotfiles/master/screenshot.png)
 
 This is where I keep my dotfiles.
 
