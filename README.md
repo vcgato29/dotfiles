@@ -1,9 +1,10 @@
+![](https://raw.githubusercontent.com/pch/dotfiles/master/screenshot.png)
+
 # My Dotfiles
 
 This is where I keep my dotfiles.
 
 They are constantly changing, based on my current workflow.
-
 
 ## Credit
 
