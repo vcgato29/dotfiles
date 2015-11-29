@@ -35,6 +35,12 @@ set -g history-limit 10000
 # switch to last pane
 bind-key C-a last-pane
 
+# window splitting
+unbind %
+bind | split-window -h
+unbind '"'
+bind - split-window -v
+
 # disable beep
 set -g visual-bell off
 set -g bell-on-alert off
