@@ -8,8 +8,6 @@ call plug#begin('~/.vim/bundle')
 
 " Define bundles via Github repos
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
 Plug 'rking/ag.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-rails'
@@ -19,7 +17,8 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-endwise'
 Plug 'chriskempson/base16-vim'
 Plug 'thoughtbot/vim-rspec'
-Plug 'ekalinin/Dockerfile.vim'
+Plug 'bling/vim-airline'
+Plug 'vim-ruby/vim-ruby'
 
 call plug#end()
 
