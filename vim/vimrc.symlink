@@ -71,12 +71,6 @@ nnoremap <c-l> <c-w>l
 nmap <leader>p pV`]=
 nmap <leader>P PV`]=
 
-" Save by hitting Ctrl-s
-" Note that remapping C-s requires flow control to be disabled
-" (e.g. in .bashrc or .zshrc)
-map <C-s> <esc>:w<CR>
-imap <C-s> <esc>:w<CR>
-
 " display trailing whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
