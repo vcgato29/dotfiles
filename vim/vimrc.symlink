@@ -41,9 +41,6 @@ set smartcase                   " ... unless they contain at least one capital l
 " Mouse
 set mouse=a
 
-" Use system clipboard
-set clipboard=unnamed
-
 " set guifont=DejaVu\ Sans\ Mono:h12
 set guifont=Fira\ Mono:h12
 
@@ -68,8 +65,8 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
 " paste lines from unnamed register and fix indentation
-nmap <leader>p pV`]=
-nmap <leader>P PV`]=
+nmap <leader>p "*pV`]=
+nmap <leader>P "*PV`]=
 
 " display trailing whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
