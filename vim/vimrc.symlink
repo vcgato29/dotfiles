@@ -68,6 +68,9 @@ nnoremap <c-l> <c-w>l
 nmap <leader>p "*pV`]=
 nmap <leader>P "*PV`]=
 
+" copy to system clipboard with <leader>y
+map <leader>y "*y
+
 " display trailing whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
