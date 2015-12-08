@@ -10,8 +10,6 @@ css_files=(application) # list of css files to compile, no extension
 js_target_filename="application.js" # dump all js into a single file
 
 compile_css() {
-    find $target_dir -name "*.css" -type f -delete
-
     for css_file in ${css_files[*]}
     do
         printf "%s" "  Compiling CSS: $css_file"
@@ -24,8 +22,6 @@ compile_css() {
 }
 
 compile_js() {
-    find $target_dir -name "*.js" -type f -delete
-
     printf "%s" "  Compiling javascript files"
     find $js_dir -type f -name '*.js' |
         xargs cat |
