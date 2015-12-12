@@ -1,3 +1,2 @@
-git/gitconfig.symlink
-vim/vim.symlink/*
-tags
+git/.gitconfig
+vim/.vim/*
