@@ -64,6 +64,9 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
+" unmap ex mode: 'Type visual to go into Normal mode.'
+nnoremap Q <nop>
+
 " paste lines from unnamed register and fix indentation
 nmap <leader>p "*pV`]=
 nmap <leader>P "*PV`]=
