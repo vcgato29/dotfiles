@@ -203,6 +203,17 @@ function! RenameFile()
 endfunction
 map <leader>n :call RenameFile()<cr>
 
+" save current file in a new location, without deleting the original
+function! CopyFile()
+    let new_name = input('New file name: ', expand('%'), 'file')
+    if new_name != ''
+        call MkNonExDir(new_name)
+        exec ':saveas ' . new_name
+        redraw!
+    endif
+endfunction
+map <leader>nn :call CopyFile()<cr>
+
 " switch between test and production code (works with non-rails projects as well)
 " via Gary Bernhardt
 function! OpenTestAlternate()
