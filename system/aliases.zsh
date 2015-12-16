@@ -14,3 +14,6 @@ alias tree="tree -C"
 
 # preserve colors in less
 alias less="less -R"
+
+# Pipe my public key to my clipboard.
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"

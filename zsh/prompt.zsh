@@ -49,9 +49,4 @@ directory_name(){
   echo "%{$fg[blue]%}%1/%\/%{$reset_color%}"
 }
 
-#export PROMPT=$'\n%{$fg[white]%}$(whoami)@$(networksetup -getcomputername)%{$reset_color%}$(git_dirty)in $(directory_name) \n %{$fg[yellow]%}%(!.#.⚡)%{$reset_color%} '
 export PROMPT=$'\n%{$fg[white]%}$(whoami): $(directory_name)%{$reset_color%}$(git_dirty)$(need_push)%{$fg[yellow]%}%(!.#.›)%{$reset_color%} '
-
-precmd() {
-  title "zsh" "%m" "%55<...<%~"
-}
