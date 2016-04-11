@@ -18,6 +18,7 @@ Plug 'tpope/vim-endwise'
 Plug 'chriskempson/base16-vim'
 Plug 'thoughtbot/vim-rspec'
 Plug 'bling/vim-airline'
+Plug 'bling/vim-bufferline'
 Plug 'vim-ruby/vim-ruby'
 
 call plug#end()
