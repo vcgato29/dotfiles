@@ -5,4 +5,5 @@ vendor
 .git/
 bower_components/
 node_modules/
+app/assets/images/
 
