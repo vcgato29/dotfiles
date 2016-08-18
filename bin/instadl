@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# Downloads original (large) images from instagram.
+#
+# Usage:
+#   1. Copy an image URL to clipboard. e.g.:
+#      https://www.instagram.com/p/BDESJ4Orw0f/
+#   2. Run instadl in your terminal
+#
+# File will be saved to your desktop.
+
+set -e
+
+url=`pbpaste`
+image_url=`curl -sL $url | grep 'og:image' | grep -Eo '(http|https)://[^?]+'`
+
+echo "Downloading ${url}"
+cd ~/Desktop
+curl -O $image_url
